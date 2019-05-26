@@ -41,12 +41,18 @@ public class ReadData implements Serializable
 			
 			ois.close();
 
-		} 
+		}
+		catch(FileNotFoundException fnfe)
+		{
+			System.out.println("student file has not been created yet!!");
+			
+		}
 		catch (IOException e) 
 		{
 			System.out.println("IO EXCEPTION IN ReadData class");
 			
 		}
+		
 		return a2;
 		
 	}

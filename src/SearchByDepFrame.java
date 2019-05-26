@@ -41,6 +41,7 @@ public class SearchByDepFrame extends JFrame
 		@Override
 		public void actionPerformed(ActionEvent e) 
 		{
+			b1.setEnabled(false);
 			a2 = ReadData.readAll();
 			Student[] x = new Student[100];
 			a2.toArray(x);
@@ -78,9 +79,21 @@ public class SearchByDepFrame extends JFrame
 				}
 			}
 			//getContentPane().add(panelL);
-			add(panelL,BorderLayout.CENTER);
+			if(count == 0)
+			{
+				add(new JLabel("No student of "+t1.getText()+" Exists..."),BorderLayout.CENTER);
 
-			
+				
+				
+			}
+			else
+			{
+				add(panelL,BorderLayout.CENTER);
+
+				
+				
+			}
+
 			
 		}
 		
