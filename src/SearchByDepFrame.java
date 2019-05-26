@@ -82,9 +82,7 @@ public class SearchByDepFrame extends JFrame
 			if(count == 0)
 			{
 				add(new JLabel("No student of "+t1.getText()+" Exists..."),BorderLayout.CENTER);
-
-				
-				
+	
 			}
 			else
 			{
