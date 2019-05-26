@@ -40,7 +40,7 @@ public class SearchByNameFrame extends JFrame
 		
 		
 		
-
+    
 	}
 	
 	public class SearchByNameListener implements ActionListener

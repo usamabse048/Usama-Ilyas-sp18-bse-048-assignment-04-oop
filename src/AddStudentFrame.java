@@ -51,7 +51,7 @@ public class AddStudentFrame extends JFrame implements Serializable
 		t7 =  new JTextField(20);
 		t8 = new JTextField(20);
 		
-		
+		  
 		//Adding components to gridPanel 
 		panel.add(l1); panel.add(t1);
 		panel.add(l2); panel.add(t2);

@@ -55,7 +55,7 @@ public class SearchByDepFrame extends JFrame
 				{
 					count++;
 				}
-			}
+			}  
 
 			panelL.setLayout(new GridLayout(count,1));
 			
