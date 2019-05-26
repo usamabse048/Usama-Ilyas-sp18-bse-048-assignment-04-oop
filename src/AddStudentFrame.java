@@ -86,6 +86,7 @@ public class AddStudentFrame extends JFrame implements Serializable
 		@Override
 		public void actionPerformed(ActionEvent e)
 		{
+			sub.setEnabled(false);
 			try
 			{
 				boolean EOF = false;
