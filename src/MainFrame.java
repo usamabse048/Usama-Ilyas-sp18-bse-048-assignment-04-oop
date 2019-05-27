@@ -23,7 +23,8 @@ public class MainFrame extends JFrame
 	
 		//Creating Panel For GridLayout
 		JPanel panel = new JPanel();
-		panel.setLayout(new GridLayout(2,3));
+		//panel.setLayout(new GridLayout(2,3));
+		panel.setLayout(new GridLayout(5,1));
 	
 		b1 = new JButton("Add Student");
 		b2 = new JButton ("Search Student By Name");
@@ -127,6 +128,7 @@ public class MainFrame extends JFrame
 		@Override
 		public void actionPerformed(ActionEvent e)
 		{
+			
 			UpdateByNameFrame sbnf = new UpdateByNameFrame();
 			
 		}
